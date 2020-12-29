@@ -382,6 +382,7 @@ DEPENDENCIES
   devise
   figaro
   fog (~> 1.37.0)
+  fog-aws
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mini_magick
