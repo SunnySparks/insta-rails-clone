@@ -2,7 +2,8 @@ class AccountsController < ApplicationController
     before_action :authenticate_account!
 
     def index
-        # user feed
+        # user dashboard - post feed
+        @posts = Post.active
     end
 
     def show
